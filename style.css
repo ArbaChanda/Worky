@@ -1,0 +1,225 @@
+@font-face {
+    font-family: "Gyahegi";
+    src: url(gyahegi/Gyahegi.otf);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    width: 100vw;
+    height: auto;
+}
+
+/* Navbar */
+nav{
+    height: 85px;
+    width: 90wv;
+    position: sticky;
+    top: 0;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    padding-left: 70px;
+    padding-right: 70px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    z-index: 10;
+    /* opacity: 1; */ 
+}
+
+nav .logo{
+    font-family: 'Gyahegi';
+    font-size: 35;
+    font-weight: boder;
+    position: relative;
+    bottom: 8px;
+    cursor: pointer;
+}
+
+/* The middle part of the navbar */
+nav .nav-components{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    position: relative;
+    right: 65px;
+}
+
+.nav-components ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-components ul li{
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+/* The last part of the navbar */
+.btns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+}
+
+.btns h2{
+    font-weight: 600;
+    font-size: 22px;
+    color: rgb(48, 47, 47);
+    cursor: pointer;
+}
+
+.btns button{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: auto;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+/* Rest of the home page */
+.homepage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Section1 (the left side) */
+/* Upper-part of the left side  */
+.heading{ 
+    width: 580px;
+    margin-bottom: 100px;
+    display: flex;
+    font-family: 'Gyahegi', sans-serif;
+    font-size: 30px;
+    position: relative;
+}
+/* .heading{ 
+    width: 580px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    display: flex;
+    text-align: center;
+    font-family: 'Gyahegi';
+    font-size: 30px;
+    position: relative;
+} */
+
+.heading h1{
+   position: relative;
+   left: 105px;
+   top: 30px;
+   margin: 0;
+   width: 800px;
+   font-weight: 500;
+}
+
+.heading img{
+    position: relative;
+    height: 400px;
+    width: 267px;
+    z-index: -1;
+    right: 370px;
+}
+
+/* Lower-part of the left side  */
+.pt-2{
+    display: flex;
+    text-align: center;
+    height: 395px;
+    width: 650px;
+    overflow: hidden;
+}
+
+.pt-2 img{
+    height: 391px;
+    width: 291px;
+}
+
+/* Stats  */
+
+/* The 'h3' and 'the-stats' altogether  */
+.stats{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 30px;
+}
+
+.stats h3{
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    color: rgb(36, 35, 35);
+    width: 300px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 23px;
+}
+.the-stats{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 370px;
+    width: 340px;
+    margin: 20px;
+    margin-top: 0;
+}
+
+.stats .numb{
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+    width: 120px;
+    margin: 10px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.numb .number{
+    font-size: 43px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.numb p{
+    font-size: 16px;
+}
+
+
+/* Section2 (the right side) */
+/* The image  */
+/* .homepage-part-2{
+    position: relative;
+} */
+
+.homepage-part-2 img{
+    /* position: absolute; */
+    right: 0px;
+    top: 90px;
+    width: 393px;
+    height: 570px;
+}
+
+.black{
+    height: 300px;
+    width: 83vw;
+    color: black;
+}
