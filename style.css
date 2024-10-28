@@ -14,7 +14,7 @@ body{
 /* Navbar */
 nav{
     height: 85px;
-    width: 90wv;
+    width: 90vw;
     position: sticky;
     top: 0;
     color: black;
@@ -32,8 +32,8 @@ nav{
 
 nav .logo{
     font-family: 'Gyahegi';
-    font-size: 35;
-    font-weight: boder;
+    font-size: 22px;
+    font-weight: bolder;
     position: relative;
     bottom: 8px;
     cursor: pointer;
@@ -102,8 +102,8 @@ nav .nav-components{
 /* Section1 (the left side) */
 /* Upper-part of the left side  */
 .heading{ 
-    width: 580px;
-    margin-bottom: 100px;
+    width: 880px;
+    margin-bottom: 80px;
     display: flex;
     font-family: 'Gyahegi', sans-serif;
     font-size: 30px;
@@ -129,21 +129,13 @@ nav .nav-components{
    font-weight: 500;
 }
 
-.heading img{
-    position: relative;
-    height: 400px;
-    width: 267px;
-    z-index: -1;
-    right: 370px;
-}
-
 /* Lower-part of the left side  */
 .pt-2{
     display: flex;
+    justify-content: start;
     text-align: center;
     height: 395px;
-    width: 650px;
-    overflow: hidden;
+    width: 450px;
 }
 
 .pt-2 img{
@@ -157,8 +149,11 @@ nav .nav-components{
 .stats{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
     margin-left: 30px;
+    width: 800px;
+    height: 350px;
 }
 
 .stats h3{
@@ -176,7 +171,7 @@ nav .nav-components{
     flex-direction: row;
     flex-wrap: wrap;
     height: 370px;
-    width: 340px;
+    width: 600px;
     margin: 20px;
     margin-top: 0;
 }
@@ -188,7 +183,6 @@ nav .nav-components{
     width: 120px;
     margin: 10px;
     margin-left: 20px;
-    display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
