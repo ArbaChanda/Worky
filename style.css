@@ -97,6 +97,9 @@ nav .nav-components{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: calc(100vh - 85px);
+    position: relative;
+    overflow: hidden;
 }
 
 /* Section1 (the left side) */
@@ -170,7 +173,7 @@ nav .nav-components{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 370px;
+    height: 200px;
     width: 600px;
     margin: 20px;
     margin-top: 0;
@@ -203,17 +206,34 @@ nav .nav-components{
 /* .homepage-part-2{
     position: relative;
 } */
+.homepage-part-2{
+    flex-direction: column;
+    position: relative;
+}
 
 .homepage-part-2 img{
-    /* position: absolute; */
-    right: 0px;
-    top: 90px;
+    position: relative;
+    top: 85px;
     width: 393px;
-    height: 570px;
+    height: 580px;
+    z-index: -1;
 }
 
-.black{
-    height: 300px;
-    width: 83vw;
-    color: black;
+.homepage-part-2 .explore-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 335px;
+    z-index: 2;
+    position: relative;
+    bottom: 90px;
+    background-color: white;
+    left: 20px;
+    font-size: 35px;
+    font-weight: lighter;
+    cursor: pointer;
+    font-family: 'gyahegi';
 }
+
+
